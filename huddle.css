@@ -18,7 +18,7 @@ body{
     font-family: var(--sansserif);
     color: white;
     background-color: var(--violet);
-    background-image: url(./images/bg-mobile.svg);
+    background-image: url(/images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -110,7 +110,7 @@ main{
 
   @media only screen and (min-width:1284px){
     body{
-      background-image: url(./images/bg-desktop.svg);
+      background-image: url(/images/bg-desktop.svg);
       background-size: unset;
     }
     main{
